@@ -1,0 +1,91 @@
+* {
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    color: blue;
+}
+
+.text-style {
+    font-style: italic;
+}
+
+#footer {
+    background-color: cyan;
+}
+
+.p-1 {
+    text-decoration: underline;
+    color: green;
+}
+
+p {
+    color: pink;
+}
+
+p {
+    color: red;
+}
+
+.p-1 {
+    color: blue;
+}
+
+/* soy un comentario*/
+
+.bg-gray {
+    background-color: gray;
+}
+
+header {
+    background-color: cyan;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: darkorange;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+}
+
+aside {
+    background-color: orange;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: inline-block;
+    width: 20%;
+}
+
+main {
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+    width: 60%;
+}
+
+article {
+    background-color: yellow;
+    border: 1px solid coral;
+    border-radius: 5px;
+}
+
+footer {
+    border: 1px solid red;
+    border-radius: 5px;
+    /* display: inline; */
+    height: 200px;
+    width: 300px;
+}
+
+span {
+    width: 200px;
+    height: 200px;
+}
+
+/* p span {
+    font-size: 30px;
+} */
+
