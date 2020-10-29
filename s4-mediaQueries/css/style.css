@@ -44,7 +44,7 @@ Mobile
 @media screen and (min-width: 1200px) {
     .square {
         background-color: green;
-        border-radius: 50%;
+        border-radius: 15px;
     }
 }
 
