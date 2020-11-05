@@ -1,0 +1,23 @@
+
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/header';
+@import 'modules/footer';
+
+
+// .container-flex .square {}
+
+// .container-flex .square.item-1 {
+
+// }
+
+//  universal, tagname, clase, id
+//  selector por atributo
+// selector de subsecuentes  + -> selector + selector   article + seccion
+// selector de  hermanos  ~    -> selector ~ selector  .form ~ p.text-white
+// selector de hijos directos >   -> selector > selector  .form > div.form-group
+// selector descendiente  selector selector   .form  div.form-group
+
+
+// .square.item
+

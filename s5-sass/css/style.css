@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-flex {
+  background-color: pink;
+}
+
+.container-flex .square {
+  color: white;
+  background-color: #ccc;
+}
+
+.container-flex .square.item-1 {
+  color: #00A3FF;
+}
+
+.container-flex .square p.text-white {
+  color: white;
+}
+
+form.form {
+  border: 1px solid #ccc;
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form.form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form.form .form-group input {
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding-left: 15px;
+  -webkit-box-shadow: 2px 3px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 3px 11px rgba(0, 0, 0, 0.25);
+}
+
+form.form .form-group button.btn {
+  height: 50px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#63C7FF), to(#00A3FF));
+  background-image: linear-gradient(to right, #63C7FF, #00A3FF);
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+form.form .form-group button.btn:hover {
+  cursor: pointer;
+}
+
+button.btn-send {
+  height: 50px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#63C7FF), to(#00A3FF));
+  background-image: linear-gradient(to right, #63C7FF, #00A3FF);
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+button.btn-send:hover {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
